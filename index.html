@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!--- Шапка сайта --->
+  	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      	<div class="container-fluid">
+            <a href="#" class="navbar-brad"><img src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Про нас</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Сервисы</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Команда</a>
+            </li>
+          </ul>
+          </div>
+    	</div>
+  	</nav>
+  <!--- Начало --->
+	<div class="carousel slide" data-ride="carousel" id="slides">
+	    <div class="carousel-inner">
+	        <div class="carousel-item active">
+	          <img src="img/header.png">
+	          <div class="carousel-caption">
+	            <h1 class="display-3">Конкурс!</h1>
+	            <h3>Будь своим в мире кино!</h3>
+	            <button type="button" class="btn btn-outline-light btn-lg">Посмотреть</button>
+	            <button type="button" class="btn btn-warning btn-lg">Инфо</button>
+	          </div>
+	        </div>
+	    </div>
+	</div>
+  <!--- Основной блок --->
+  	<main class="mt-5">
+  	<div class="container">
+  	<!--- Слайдер и История --->
+	<section id="gallery">
+		<h3 class="my-4 h3 text-center">История</h3>
+		<div class="row">
+			<div class="col-md-6 mb-4">
+				<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+					<br><br>
+					<div class="carousel-inner z-depth-1-half" role="listbox">
+						<div class="carousel-item active">
+							<img src="img/slider1.jpg" alt="" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="img/slider2.jpg" alt="" class="d-block w-100">
+						</div>
+						<div class="carousel-item">
+							<img src="img/slider3.jpg" alt="" class="d-block w-100">
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<h4 class="mb-3 mt-5">
+					<strong>Немного о советском кино</strong>
+				</h4>
+				<p>Официальная история советского кино началась 27 августа 1919 года, когда Совнарком принял декрет о национализации кинодела в Советской России, впоследствии этот день стал отмечаться как «День кино» (ныне — «День российского кино»)</p>
+	          	<p>Первый советский фантастический фильм — «Аэлита» (1924).
+	          	<br>В 1925 году режиссёром Сергеем Эйзенштейном был создан фильм «Броненосец „Потёмкин“», признанный художественными критиками одним из лучших фильмов всех времён и народов.</p>
+	          	<p>Первый советский фильм, который изначально снимался как звуковой, вышел на экраны в 1931 году и назывался «Путёвка в жизнь». Первым цветным стал фильм «Груня Корнакова» («Соловей-соловушко»), вышедший в 1936 году.</p>
+			</div>
+		</div>
+	</div>
+	</section>
+  <!--- Блок с участием --->
+  	<section class="feedback">
+  		<br><br><br>
+  		<div class="container white">
+  			<h2 class="block-title white">Хочешь, участвовать?</h2>
+  			<h3 class="block-sub-title white">Тогда скорей, это твой шанс!</h3>
+  			<div class="row" style="">
+  				<div class="col-lg-4">
+  					<form class="form feedback-from"> 
+  						<h2>Что делать?!</h2>
+  						<p><span>Загружайте фотографии</span> в костюме любимых
+  						 героев, и нажимайте <br>
+  						кнопку участвовать. Всё просто!</p>
+  						<input type="text" placeholder="Ваше имя" class="input">
+  						<input type="text" placeholder="Ваш телефон" class="input">
+
+  						<a href ="#" button class="main-btn" type="button">Загрузить фото</a><br>
+  						<a href ="#" button class="main-btn-uchastvovat" type="button">Участвовать</a>
+  						<small>
+  						Нажимая участвовать вы соглашаетесь с <br>
+  						условиями и становитесь участником конкурса!
+  						<br><br><br>
+  					</small>
+  					</form>
+  				</div>
+  				 <div class="timer">
+  				<h1>До конца конкурса осталось!</h1>
+  				<hr>
+				<p1 id="timer"></p1>
+				</div>
+  			</div>
+  			<script>
+  				// Установка отсчета времени 
+  				var countDownDate = new Date("August, 2020 00:00:00").getTime();
+
+  				// Обнова таймера каждую секунду
+  				var countDownFunction = setInterval(function() {
+
+  					//Время на данный момент
+  					var now = new Date().getTime();
+
+  					//Высчитываем пр.времени между уст.временем
+  					var distance = countDownDate - now;
+
+  					//Высчитываем вр. для дней, часов и т.д
+  					var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  					var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  					var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  					var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  					//Вывод результата на сайте
+  					document.getElementById("timer").innerHTML = days + "д " + hours + "ч " + minutes + "м " + seconds + "с ";
+
+  					//Когда отсчет равен 0
+  					if (distance < 0) {
+  						clearInterval(countDownFunction);
+  						document.getElementById("timer").innerHTML = "Время истекло";
+  					}
+  				}, 1000)
+  			</script>
+  		</div>
+  	</section>
+  	<div class="container dark-grey-text mt-5">
+  		<hr>
+	<!--- Призы --->
+  		<div class="row d-flex justify-content-center wow fadeIn">
+  			<div class="col-md-7 text-center">
+  				<h3 class="my-4 h3">Призы победителям</h3>
+  				<p>Учавствуйте в косплей-конкурсе, регистрируйте и присылайте ваше фото в образе любимых героев российского или советского кино и получите приз – iphone, macbook, imac и т.д </p>
+  			</div>
+  		</div>
+  		<div class="row wow fadeIn">
+  			<div class="col-lg-4 col-md-12 md-4">
+  					<img src="https://img.mvideo.ru/Pdb/30045421b.jpg" alt="iphone" class="img-fluid">
+  			</div>
+  			<div class="col-lg-4 col-md-12 md-4">
+  				<img src="https://www.re-store.ru/upload/resize_cache/iblock/e62/1120_1075_17f5c944b3b71591cc9304fac25365de2/e62002c7c5c363f0d3c79d551c4cc866.jpg" alt="macbook" class="img-fluid">
+  			</div>
+  			<div class="col-lg-4 col-md-12 md-4">
+  				<img src="https://www.re-store.ru/upload/resize_cache/iblock/46d/1120_946_17f5c944b3b71591cc9304fac25365de2/46d049a4181f0831ee85a5d19652dd44.jpg" alt="imac" class="img-fluid">
+  			</div>
+  		</div>
+		<br><br><hr><br>
+  	<!--- Жюри --->	
+  		<div class="row d-flex justify-content-center wow fadeIn">
+  			<div class="col-md-7 text-center">
+	  			<h3 class="my-4 h3">Жюри</h3>
+	  			<br><br>
+  			</div>
+	  		<section class="text-center mb-4">
+	  		<div class="row wow fadeIn">
+
+	  			<!--- ЖЮРИ1 --->
+	  			<div class="col-lg-3 col-md-6 mb-4">
+	  				<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/shuri1.jpg" alt="shuri1" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>Федор<br>Бондарчук</h5>
+							</a>
+						</div>
+					</div>
+	  			</div>
+
+  				<!--- ЖЮРИ2 --->
+  				<div class="col-lg-3 col-md-6 mb-4">
+  					<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/shuri2.jpg" alt="shuri2" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>Владимир<br>Меньшов</h5>
+							</a>
+						</div>
+					</div>
+  				</div>
+
+  				<!--- ЖЮРИ3 --->
+  				<div class="col-lg-3 col-md-6 mb-4">
+	  				<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/shuri3.jpg" alt="shuri3" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>Тимур<br>Бекмамбетов</h5>
+							</a>
+						</div>
+					</div>
+  				</div>
+
+
+  				<!--- ЖЮРИ4 --->
+  				<div class="col-lg-3 col-md-6 mb-4">
+  					<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/shuri4.jpg" alt="shuri4" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>Константин<br>Хабенский</h5>
+							</a>
+						</div>
+					</div>
+  				</div>
+  			</div>
+  		</div>
+		<br><br><hr><br>
+  		<!--- Партнеры --->	
+  		<div class="row d-flex justify-content-center wow fadeIn">
+	  		<div class="col-md-7 text-center">
+			  	<h3 class="my-4 h3">Партнеры</h3>
+			  	<br><br>
+	  		</div>
+	  		<section class="text-center mb-4">
+	  		<div class="row wow fadeIn">
+
+	  			<!--- ПАРТНЕР1 --->
+	  			<div class="col-lg-4 col-md-6 mb-4">
+	  				<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/partners1.png" alt="partners1" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>START</h5>
+							</a>
+						</div>
+					</div>
+	  			</div>
+
+	  				<!--- ПАРТНЕР2 --->
+	  			<div class="col-lg-4 col-md-6 mb-4">
+	  				<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/partners2.png" alt="partners2" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>OKKO</h5>
+							</a>
+						</div>
+					</div>
+	  			</div>
+
+	  				<!--- ПАРТНЕР3 --->
+	  			<div class="col-lg-4 col-md-6 mb-4">
+	  				<div class="card">
+	  					<div class="view overlay">
+	  						<img src="img/partners3.png" alt="partners3" class="card-img-top">
+	  						<a href="">
+	  							<div class="mask rgba-white-slight"></div>
+	  						</a>
+	  					</div>
+						<div class="card-body text-center">
+							<a href="" class="shuri1">
+								<h5>MORE TV</h5>
+							</a>
+						</div>
+					</div>
+	  			</div>
+  			</div>
+  		</div>
+ 	</main>
+ 	<!---FOOTER--->
+	<footer class="container-fluid">
+		<div class="container-fluid">
+			<div class="row padding text-center">
+				<div class="col-12">
+					<h2>Наши контакты</h2>
+				</div>
+				<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
