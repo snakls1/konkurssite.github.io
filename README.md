@@ -1,1 +1,1 @@
-# snakls1.github.io
+# snakls1.com
